@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gusto</title>
+<title>NiniBakery</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -48,7 +48,7 @@
         <li><a href="#features" class="page-scroll">Specials</a></li>
         <li><a href="#about" class="page-scroll">About</a></li>
         <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-        <li><a href="#team" class="page-scroll">Chef</a></li>
+        <li><a href="#pictures" class="page-scroll">Gallery</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
       </ul>
     </div>
@@ -131,7 +131,7 @@
           <h2 class="menu-section-title">Event Cakes</h2>
           <div class="menu-item">
          <div class="menu-item-name">Wedding Cakes</div>
-            <div class="menu-item-price"> $100 </div>
+            <div class="menu-item-price"> <em>Call for price</em> </div>
             <div class="menu-item-description"> More info </div>
           </div>
           <div class="menu-item">
@@ -146,7 +146,7 @@
           </div>
           <div class="menu-item">
             <div class="menu-item-name">Quinceanera</div>
-            <div class="menu-item-price"> $100 </div>
+            <div class="menu-item-price"> <em>Call for price</em> </div>
             <div class="menu-item-description">More info. </div>
           </div>
         </div>
@@ -161,7 +161,7 @@
             <div class="menu-item-description"> More info. </div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Item</div>
+            <div class="menu-item-name">Cake Pop</div>
             <div class="menu-item-price"> $20 </div>
             <div class="menu-item-description"> More info. </div>
           </div>
@@ -178,47 +178,40 @@
         </div>
       </div>
     </div>
+<div id="pictures">
+  <!-- Slideshow container -->
+<div class="slideshow-container">
 
-
-<!-- Gallery Section -->
-<div id="gallery">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-6 col-md-3">
-        <div class="gallery-item"> <img src="img/specials/cake5.jpg" class="img-responsive" alt=""></div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="gallery-item"> <img src="img/specials/cake6.jpg" class="img-responsive" alt=""></div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="gallery-item"> <img src="img/specials/cake7.jpg" class="img-responsive" alt=""></div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="gallery-item"> <img src="img/specials/cake8.jpg" class="img-responsive" alt=""></div>
-      </div>
-    </div>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/specials/cake9.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/specials/cake10.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/specials/cake11.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previousbuttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<!-- Team Section -->
-<div id="team">
-  <div class="container">
-    <div id="row">
-      <div class="col-md-6">
-        <div class="col-md-10 col-md-offset-1">
-          <div class="section-title">
-            <h2>Meet Our Chef</h2>
-        </div>
-        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-        -->
-        </div>
-      </div>
-    <!--  <div class="col-md-6">
-        <div class="team-img"><img src="img/chef.jpg" alt="..."></div>
-      </div>
-    -->
-    </div>
-  </div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 <!-- Contact Section -->
 <div id="contact" class="text-center">
@@ -291,11 +284,12 @@
     </div>
   </div>
 </div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
 </body>
 </html>
